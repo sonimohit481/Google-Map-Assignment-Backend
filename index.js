@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
         lat: Math.random() * (24 - 21) + 21,
         lng: Math.random() * (84 - 81) + 81,
     }
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 4; i++) {
         arr[i + 1] = {
             name: i + 1,
             lat: Math.random() * (24 - 21) + 21,
